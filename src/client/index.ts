@@ -14,4 +14,7 @@ nextLayout.pointCheckers[2] = {
   isWhite: false,
   count: 1
 }
-setTimeout(() => bgBoard.updateLayout(nextLayout), 3000)
+setTimeout(() => {
+  //bgBoard.updateLayout(nextLayout)
+  bgBoard.moveChecker(1,2)
+},2000)
